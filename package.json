@@ -1,0 +1,25 @@
+{
+  "name": "@ieful/allen-fe-toolfn",
+  "version": "0.0.1",
+  "description": "allen's tool fn",
+  "main": "index.js",
+  "scripts": {
+    "test": "allen test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ieful/allen-fe-toolfn.git"
+  },
+  "keywords": [
+    "fe-tool"
+  ],
+  "author": "Allen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ieful/allen-fe-toolfn/issues"
+  },
+  "homepage": "https://github.com/ieful/allen-fe-toolfn#readme",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
