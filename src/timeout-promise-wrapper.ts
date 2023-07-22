@@ -4,7 +4,6 @@
  * @param {number} timeout 超时时间（单位：ms）默认1000 ms
  */
 
-
 export function timeoutPromiseWrapper<T>(promise: Promise<T>, timeout?: number): Promise<T> {
     if(typeof timeout !== 'number') {
         timeout = 1000;

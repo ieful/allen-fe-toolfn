@@ -3,8 +3,10 @@
   "version": "0.0.1",
   "description": "allen's tool fn",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "allen test"
+    "test": "allen test",
+    "build": "rollup --config"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,9 @@
   },
   "homepage": "https://github.com/ieful/allen-fe-toolfn#readme",
   "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.2",
+    "rollup": "^3.26.3",
+    "tslib": "^2.6.0",
     "typescript": "^5.1.6"
   }
 }
